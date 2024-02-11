@@ -109,7 +109,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} ppdx.org.`,
+      copyright: `Copyright © ppdx.org.`,
     },
     prism: {
       theme: prismThemes.github,
