@@ -3,8 +3,8 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'Fujis Site',
+  tagline: 'a software developer',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -55,29 +55,26 @@ const config: Config = {
   ],
 
   themeConfig: {
-    // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    // social card
+    image: 'img/icon.png',
     navbar: {
-      title: 'My Site',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: 'Top Logo',
+        src: 'img/icon.png',
+        style: {
+          borderRadius: '50%',
+        }
       },
       items: [
         {
           type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
+          sidebarId: 'worksSidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Works',
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
           type: 'localeDropdown',
-          position: 'right',
-        },
-        {
-          href: 'https://github.com/ppdx999',
-          label: 'GitHub',
           position: 'right',
         },
       ],
@@ -86,46 +83,33 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Navs',
           items: [
             {
-              label: 'Tutorial',
+              label: 'Works',
               to: '/docs/intro',
             },
-          ],
-        },
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
-            },
-          ],
-        },
-        {
-          title: 'More',
-          items: [
             {
               label: 'Blog',
               to: '/blog',
             },
+          ],
+        },
+        {
+          title: 'Links',
+          items: [
+            {
+              label: 'Twitter',
+              href: 'https://twitter.com/ppdx999',
+            },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/ppdx999',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} ppdx.org.`,
     },
     prism: {
       theme: prismThemes.github,
