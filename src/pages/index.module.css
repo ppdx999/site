@@ -10,6 +10,27 @@
   overflow: hidden;
 }
 
+.title {
+  margin-bottom: 1rem;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+[data-theme='dark'] .title {
+  color: #fff;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+[data-theme='dark'] .subtitle {
+  color: #fff;
+}
+
 @media screen and (max-width: 996px) {
   .heroBanner {
     padding: 2rem;
