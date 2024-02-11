@@ -17,26 +17,13 @@
   line-height: 1.2;
 }
 
-[data-theme='dark'] .title {
-  color: #fff;
-}
-
 .subtitle {
   font-size: 1.5rem;
-  color: #fff;
   margin-bottom: 2rem;
-}
-
-[data-theme='dark'] .subtitle {
-  color: #fff;
 }
 
 @media screen and (max-width: 996px) {
   .heroBanner {
     padding: 2rem;
   }
-}
-
-[data-theme='dark'] .cardTitle {
-  color: #fff;
 }
