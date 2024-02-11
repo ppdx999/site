@@ -135,7 +135,7 @@
     "description": "The label for the navbar versions dropdown on mobile view"
   },
   "theme.NotFound.title": {
-    "message": "Page Not Found",
+    "message": "ページが見つかりませんでした。",
     "description": "The title of the 404 page"
   },
   "theme.tags.tagsListLabel": {
@@ -285,5 +285,9 @@
   "theme.unlistedContent.message": {
     "message": "This page is unlisted. Search engines will not index it, and only users having a direct link can access it.",
     "description": "The unlisted content banner message"
+  },
+  "homepage.header.link": {
+    "message": "Dive in",
+    "description": "The label of the homepage link to the docs"
   }
 }
